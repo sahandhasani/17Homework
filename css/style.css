@@ -1,75 +1,240 @@
-#thisismybody {
-    margin: 0 auto;
-    padding: 0 auto;
-    max-width: fit-content;
-    max-height: fit-content;
-    background-color: #F3EEE7; 
+.portfolio-stylized-copy-child {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    background-color: #262626;
+    width: 1440px;
+    height: 690px;
 }
-
-
-
-.logo {
-    width: 380px;
+.home {
+    width: 67.7px;
     position: relative;
-    font-size: 27px;
-    font-family: Tenor Sans;
-    color: #000000;
-    text-align: left;
     display: flex;
     align-items: center;
-    height: 18px;
-}
-.JobTitle {
-    width: 320px;
-    position: relative;
-    font-size: 27px;
-    font-family: Tenor Sans;
-    color: #000000;
-    text-align: left;
-    display: flex;
-    align-items: center;
+    justify-content: center;
     height: 17px;
+    flex-shrink: 0;
 }
-
-.navlinks {
-    width: 300px;
+.case-studies {
+    width: 134px;
     position: relative;
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17px;
+    flex-shrink: 0;
+}
+.artwork {
+    width: 98.4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17px;
+    flex-shrink: 0;
+}
+.contact {
+    width: 99.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17px;
+    flex-shrink: 0;
+}
+.home-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.portfolio-stylized-copy-inner {
+    position: absolute;
+    top: 44px;
+    left: 843px;
+    width: 546px;
+    height: 17px;
+    text-align: center;
+    color: #fff;
     font-family: Raleway;
-    color: #000000;
-    text-align: left;
+}
+.sahand-hasani {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     display: flex;
     align-items: center;
+    width: 320px;
     height: 17px;
-    list-style: none;
 }
-
-.Hero{
-background-image: url("../images/Beep.png");
-display: inline-flex;
-width: 100%;
+.uxui-designer {
+    position: absolute;
+    top: 34px;
+    left: 0px;
+    font-size: 24px;
+    font-family: Raleway;
+    display: flex;
+    align-items: center;
+    width: 245px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sahand-hasani-parent {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    width: 320px;
+    height: 62px;
+    font-size: 27px;
+    color: #fff;
+    font-family: 'Tenor Sans';
+}
+.portfolio-stylized-copy-item {
+    position: absolute;
+    top: 2589px;
+    left: 49px;
+    border-top: 2px solid #000;
+    box-sizing: border-box;
+    width: 1342px;
+    height: 2px;
+}
+.copyright-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.sahand-hasani-2024 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 27px;
+}
+.copyright-parent {
+    position: absolute;
+    top: 2635px;
+    left: 49px;
+    width: 260px;
+    height: 30px;
+}
+.denver-co {
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    width: 126px;
+    height: 27px;
+}
+.global-svgrepocom-icon {
+    position: absolute;
+    height: 85.19%;
+    width: 14.94%;
+    top: 11.11%;
+    right: 85.06%;
+    bottom: 3.7%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.denver-co-parent {
+    position: absolute;
+    top: 2635px;
+    left: 643px;
+    width: 154px;
+    height: 27px;
+}
+.flickr-svgrepocom-icon {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.behance-icon {
+    position: absolute;
+    height: 100%;
+    width: 21.74%;
+    top: 0%;
+    right: 39.13%;
+    bottom: 0%;
+    left: 39.13%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.linkedin-icon {
+    position: absolute;
+    height: 100%;
+    width: 21.74%;
+    top: 0%;
+    right: 78.26%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.flickr-svgrepocom-parent {
+    position: absolute;
+    top: 2622px;
+    left: 1132px;
+    width: 230px;
+    height: 50px;
+}
+.lets-connect {
+    position: absolute;
+    top: 2387px;
+    left: 1218px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Raleway;
+    color: #000;
+    text-align: right;
+    display: inline-block;
+    width: 172px;
+    height: 52px;
+}
+.b {
+    position: absolute;
+    top: 2463px;
+    left: 1138px;
+    font-size: 20px;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    width: 252px;
+}
+.sahandkhasanigmailcom {
+    position: absolute;
+    top: 2503px;
+    left: 959px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    width: 431px;
+    height: 23px;
+}
+.portfolio-stylized-copy {
+    width: 100vh;
+    position: relative;
+    background-color: #f3eee7;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+    font-size: 22px;
+    color: #262626;
+    font-family: Montserrat;
+}
 
