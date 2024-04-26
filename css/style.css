@@ -7,23 +7,48 @@
 }
 
 
-#HeroImage {
-    width: 100vw;
-    height: 690px;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 0;
+
+.logo {
+    width: 380px;
+    position: relative;
+    font-size: 27px;
+    font-family: Tenor Sans;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 18px;
+}
+.JobTitle {
+    width: 320px;
+    position: relative;
+    font-size: 27px;
+    font-family: Tenor Sans;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 17px;
 }
 
+.navlinks {
+    width: 300px;
+    position: relative;
+    font-size: 20px;
+    font-family: Raleway;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 17px;
+    list-style: none;
+}
 
-
-
-
-
-
-
-
-
+.Hero{
+background-image: url("../images/Beep.png");
+display: inline-flex;
+width: 100%;
+}
 
 
 
