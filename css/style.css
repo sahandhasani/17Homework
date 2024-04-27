@@ -6,7 +6,7 @@ body {
 
 .top-bar {
     background-color: #262626;
-    width: 100%;
+    width: 100vw;
     height: 50px;
 }
 
@@ -62,26 +62,26 @@ body {
 }
 .project-image-bg::before {
     content: '';
-    display: inline-block;
+    display: flex;
     padding-top: 66.66%;
-    background-image: url('17Homework\images\plant pals.png');
-    background-size: cover;
+    background-image: url("../images/plant\ pals.png");
+    background-size: contain;
     background-position: center;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 40px;
+    left: 10px;
+    right: -100px;
     bottom: 0;
 }
 
 .project-image {
-    display: block;
+    display: flex;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    width: 30%; 
-    z-index: 2;
+    top: 300;
+    left: 100%;
+    transform: translate(-30%, -30%); 
+    width: 38%; 
+    z-index: 0;
 }
 
 footer {
@@ -91,6 +91,6 @@ footer {
     padding: 10px 0;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     font-family: 'Raleway';
 }
