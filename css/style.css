@@ -1,75 +1,96 @@
-#thisismybody {
-    margin: 0 auto;
-    padding: 0 auto;
-    max-width: fit-content;
-    max-height: fit-content;
+body {
+    margin: 0;
+    padding: 0;
     background-color: #F3EEE7; 
 }
 
+.top-bar {
+    background-color: #262626;
+    width: 100%;
+    height: 50px;
+}
 
+.Hero {
+    background-image: url("../images/Beep.png");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.logo, .JobTitle, .navlinks {
+    font-size: 27px;
+    color: #FFFFFF;
+}
 
 .logo {
-    width: 380px;
-    position: relative;
-    font-size: 27px;
-    font-family: Tenor Sans;
-    color: #000000;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    height: 18px;
-}
-.JobTitle {
-    width: 320px;
-    position: relative;
-    font-size: 27px;
-    font-family: Tenor Sans;
-    color: #000000;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    height: 17px;
+    font-family: 'Tenor Sans';
+    display: block;
 }
 
 .navlinks {
-    width: 300px;
-    position: relative;
-    font-size: 20px;
-    font-family: Raleway;
-    color: #000000;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    height: 17px;
+    font-family: 'Raleway';
     list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.Hero{
-background-image: url("../images/Beep.png");
-display: inline-flex;
-width: 100%;
+.navlinks li {
+    padding: 10px 15px;
 }
 
+.navlinks a {
+    text-decoration: none;
+    color: #FFFFFF; 
+}
 
+.project-image-wrapper {
+    position: relative;
+    display: block; 
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
 
+.project-image-bg {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+.project-image-bg::before {
+    content: '';
+    display: inline-block;
+    padding-top: 66.66%;
+    background-image: url('../images/plant\ pals.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
+.project-image {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 30%; 
+    z-index: 2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+    background-color: #262626;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Raleway';
+}
