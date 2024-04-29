@@ -12,27 +12,48 @@ body {
 
 .Hero {
     background-image: url("../images/Beep.png");
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 20px;
     width: 100%;
+    height: 500px;
 }
 
-.logo, .JobTitle, .navlinks {
+
+
+.logo{
     font-size: 27px;
     color: #FFFFFF;
+
+
+} 
+
+
+
+.JobTitle{
+font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+
+
+}
+
+
+
+.navlinks {
+    font-size: 22px;
+    color: #FFFFFF;
+    
 }
 
 .logo {
     font-family: 'Tenor Sans';
     display: block;
+    text-decoration:  none;
+    font-size: 27px;
 }
 
 .navlinks {
     font-family: 'Raleway';
     list-style: none;
-    padding: 0;
+    padding: 2px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -75,22 +96,193 @@ body {
 }
 
 .project-image {
-    display: flex;
-    position: absolute;
-    top: 300;
-    left: 100%;
-    transform: translate(-30%, -30%); 
     width: 38%; 
-    z-index: 0;
+   
 }
 
-footer {
-    background-color: #262626;
-    color: #FFFFFF;
+
+
+.AboutHeader{
+text-align: center;
+font-family: 'Raleway';
+}
+
+.Skills{
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100vw;
+    }
+
+
+.Work {
+font-size: 36px;
+font-family: 'Raleway';
+font-weight: 500;
+
+}
+
+.AboutHeader {
+    font-size: 36px;
     font-family: 'Raleway';
+    font-weight: 500;
+}
+
+
+.Skills {
+    font-size: 36px;
+    font-family: 'Raleway';
+    font-weight: 500;
+
+}
+
+
+.LineOne{
+justify-content: flex-start;
+font-weight: 200;
+
+}
+
+.LineTwo {
+    justify-content: flex-end;
+}
+
+.Location {
+    justify-content: center;
+}
+
+.ProjectContainer {
+display: flex;
+flex-direction:row;
+
+}
+
+.PlantPalBackground{
+background-image: url(../images/plant\ pals.png);
+
+}
+
+.AboutParagraph {
+    letter-spacing: 0.04em;
+}
+
+.Container {
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+
+}
+
+.Quote {
+    color:#FFFFFF;
+    font-size: 29px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-style: italic;
+}
+
+
+button {
+padding:1rem;
+margin: 0.5rem;
+border-color: #A69B8D;
+border-radius: 35px;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+.WorkParagraph {
+font-size: 22px;
+font-family: "Montserrat";
+
+}
+
+
+.AboutParagraph {
+    font-size: 22px;
+    font-family: "Montserrat";
+    
+    }
+
+
+.Tools {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.04em;
+
+}
+
+.ToolsBio {
+    font-size: 22px;
+    font-family: "Montserrat";
+    letter-spacing: 0.04em;
+
+}
+
+.Design {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.04em;
+
+}
+
+.DesignBio {
+    font-size: 22px;
+    font-family: "Montserrat";
+    letter-spacing: 0.04em;
+
+}
+
+.Organizational {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.04em;
+
+}
+
+.OrganizationalBio {
+    font-size: 22px;
+    font-family: "Montserrat";
+    letter-spacing: 0.04em;
+
+}
+
+.LetsConnect {
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: 500;
+
+}
+
+.EmailInfo {
+    font-family: "Montserrat";
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    
+}
+
+.phonenumber {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+
+.InfoContainer {
+   
+
+}
+
+.FooterName {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: #262626;
+
+}
+
+
+.Location {
+font-size: 22px;
+font-family: Montserrat;
+color: #262626;
 }
