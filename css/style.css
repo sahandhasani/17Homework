@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -14,16 +18,18 @@ body {
     background-image: url("../images/Beep.png");
     width: 100%;
     height: 500px;
+    position:relative;
+    background-size:cover;
+    
+    
 }
 
+.Name{
+text-decoration:none;
+color: white;
 
+}
 
-.logo{
-    font-size: 27px;
-    color: #FFFFFF;
-
-
-} 
 
 
 
@@ -31,8 +37,6 @@ body {
 font-size: 24px;
     color: #FFFFFF;
     font-family: 'Raleway';
-
-
 }
 
 
@@ -40,7 +44,7 @@ font-size: 24px;
 .navlinks {
     font-size: 22px;
     color: #FFFFFF;
-    
+    margin: 0 30px;
 }
 
 .logo {
@@ -48,6 +52,7 @@ font-size: 24px;
     display: block;
     text-decoration:  none;
     font-size: 27px;
+    margin: 0 30px;
 }
 
 .navlinks {
@@ -163,7 +168,7 @@ background-image: url(../images/plant\ pals.png);
     letter-spacing: 0.04em;
 }
 
-.Container {
+.Wrapper {
 display: flex;
 flex-direction:row;
 justify-content: space-between;
@@ -174,8 +179,16 @@ justify-content: space-between;
     color:#FFFFFF;
     font-size: 29px;
     font-family: 'Montserrat';
-    text-align: center;
     font-style: italic;
+    text-align: left;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+
+
 }
 
 
@@ -268,10 +281,6 @@ font-family: "Montserrat";
    
 }
 
-.InfoContainer {
-   
-
-}
 
 .FooterName {
     font-size: 22px;
@@ -280,9 +289,40 @@ font-family: "Montserrat";
 
 }
 
+.copyright{
+    height: 28px;
+}
+
+.global{
+    height: 30px;
+
+}
 
 .Location {
 font-size: 22px;
 font-family: Montserrat;
 color: #262626;
 }
+
+.Container {
+max-width: 1440px;
+margin: 0 30px;
+
+}
+
+
+.LocationStuff  {
+
+
+}
+
+
+.line-div {
+    width: 100%;
+    position: relative;
+    border-top: 2px solid #57514a;
+    box-sizing: border-box;
+    height: 2px;
+    }
+
+   
